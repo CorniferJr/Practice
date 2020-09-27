@@ -20,15 +20,15 @@ using namespace std;
 int main() {
     // Variable type_name_=value
     int a=5;
-    double b= 0.5;
+    float b= 0.5;
     // 5||| 0.5 if c is int
-    double c=a+b;
+    float c=a+b;
     //primitive and complex
     // int, double/float, long=big numbers
     //bool=true /false, char single charecters
     // complex
     //string
-    cout:: << a+b+ "\n";
-    cout:: << c << "\n";
+    cout << a+b << "\n";
+    cout << c << "\n";
 
 }
